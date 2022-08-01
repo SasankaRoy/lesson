@@ -27,7 +27,7 @@ export const Qutos = () => {
               Not only does mt resume looks impressive -filled with the names
               and logos of the world class institution-but these certificates
               also bring me closer to my career goals by validating the skills
-              I've learned.
+              I&apos;ve learned.
             </h1>
           </div>
         </div>

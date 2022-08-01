@@ -28,7 +28,7 @@ export const Hero = ({Toggle}) => {
                     </h1>
                   </div>
                 </div>
-
+{/* `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;` */}
                 <div className="mainDiv sm:p-3  flex justify-center items-center">
                   <div className="img mr-2">
                     <img
@@ -40,7 +40,7 @@ export const Hero = ({Toggle}) => {
                   <div className="text">
                     <p className="cour text-sm">20 courses</p>
                     <h1 className="font-semibold text-lg sm:text-xl text-black">
-                      Development
+                      Development &apos;
                     </h1>
                   </div>
                 </div>
