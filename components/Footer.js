@@ -105,7 +105,7 @@ export const Footer = () => {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-white hover:text-gray-800">FAQ's</a>
+                  <a className="text-white hover:text-gray-800">FAQ&apos;s</a>
                 </li>
                 <li>
                   <a className="text-white hover:text-gray-800">
