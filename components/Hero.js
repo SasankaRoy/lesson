@@ -4,11 +4,11 @@ export const Hero = ({Toggle}) => {
   return (
     <>
       <div className="hero bg-yellow-100  ">
-        <section class="text-gray-600 body-font">
-          <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div class="lg:max-w-lg lg:w-full  md:w-1/2 w-5/6 mb-10 ml-8 md:mb-0">
+        <section className="text-gray-600 body-font">
+          <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div className="lg:max-w-lg lg:w-full  md:w-1/2 w-5/6 mb-10 ml-8 md:mb-0">
               <img
-                class="object-cover object-center rounded-md"
+                className="object-cover object-center rounded-md"
                 alt="hero"
                 src="/img2.jpg"
               />
@@ -61,25 +61,25 @@ export const Hero = ({Toggle}) => {
                 </div>
               </div>
             </div>
-            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-28 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-gray-900">
+            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-28 flex flex-col md:items-start md:text-left items-center text-center">
+              <h1 className="title-font sm:text-6xl text-3xl mb-4 font-medium text-gray-900">
                 Learn without
-                <br class="hidden lg:inline-block" />
-                limits and spread <br class="hidden lg:inline-block" />{" "}
+                <br className="hidden lg:inline-block" />
+                limits and spread <br className="hidden lg:inline-block" />{" "}
                 knowledge.
               </h1>
-              <p class="mb-8 text-2xl leading-relaxed">
+              <p className="mb-8 text-2xl leading-relaxed">
                 Build new skills for that "this is my year" feeling with{" "}
-                <br class="hidden lg:inline-block" />
+                <br className="hidden lg:inline-block" />
                 courses,certificates and degrees from world-class{" "}
-                <br class="hidden lg:inline-block" /> university and companies.
+                <br className="hidden lg:inline-block" /> university and companies.
               </p>
-              <div class="flex-col md:inline-block justify-center items-center">
-                <button class="inline-flex justify-center space-y-3 items-center text-white bg-yellow-500 border-0 py-3 px-6 focus:outline-none hover:text-yellow-500 hover:bg-white  rounded-full shadow-sm text-lg">
+              <div className="flex-col md:inline-block justify-center items-center">
+                <button className="inline-flex justify-center space-y-3 items-center text-white bg-yellow-500 border-0 py-3 px-6 focus:outline-none hover:text-yellow-500 hover:bg-white  rounded-full shadow-sm text-lg">
                   See courses
                 </button>
-                <button class="ml-4 inline-flex justify-center items-center  text-black   py-2 px-6 focus:outline-none  rounded text-lg">
-                  <PlayIcon class="h-10 w-10 text-yellow-400 mr-3 p-0 shadow-xl rounded-full" />
+                <button className="ml-4 inline-flex justify-center items-center  text-black   py-2 px-6 focus:outline-none  rounded text-lg">
+                  <PlayIcon className="h-10 w-10 text-yellow-400 mr-3 p-0 shadow-xl rounded-full" />
                   Watch Videos
                 </button>
               </div>

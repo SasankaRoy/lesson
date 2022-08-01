@@ -8,15 +8,15 @@ import {
 export const Content = () => {
   return (
     <>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col">
-            <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col">
+            <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
               <div className=" sm:pl-10">
-                <h1 class="sm:w-4/5 text-black font-bold title-font text-5xl mb-2 sm:mb-0">
+                <h1 className="sm:w-4/5 text-black font-bold title-font text-5xl mb-2 sm:mb-0">
                   Our popular courses
                 </h1>
-                <p class="sm:w-3/5 leading-relaxed  pl-0 mt-3 text-lg">
+                <p className="sm:w-3/5 leading-relaxed  pl-0 mt-3 text-lg">
                   Build new skills with new trendy courses and shine for the
                   next future career.
                 </p>
@@ -27,29 +27,29 @@ export const Content = () => {
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-              <div class="rounded-lg h-64 overflow-hidden">
+          <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+              <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  class="object-cover object-center h-full w-full"
+                  className="object-cover object-center h-full w-full"
                   src="/img6.jpg"
                 />
               </div>
               <div className="flex justify-between items-center mt-5">
-                <h2 class="text-3xl font-semibold title-font text-black ">
+                <h2 className="text-3xl font-semibold title-font text-black ">
                   Basic web design
                 </h2>
                 <div className="flex">
-                  <StarIcon class="h-7 text-yellow-400" />
+                  <StarIcon className="h-7 text-yellow-400" />
                   <span className="text-yellow-400 font-medium text-lg">
                     4.5
                   </span>
                 </div>
               </div>
-              <p class="text-md font-medium leading-relaxed mt-2">
+              <p className="text-md font-medium leading-relaxed mt-2">
                 Get the basic courses,gain knowledge and{" "}
-                <br class="hidden lg:inline-block" /> shine for your future
+                <br className="hidden lg:inline-block" /> shine for your future
                 career.
               </p>
 
@@ -60,28 +60,28 @@ export const Content = () => {
                 </button>
               </div>
             </div>
-            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-              <div class="rounded-lg h-64 overflow-hidden">
+            <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+              <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  class="object-cover object-center h-full w-full"
+                  className="object-cover object-center h-full w-full"
                   src="/img7.jpg"
                 />
               </div>
               <div className="flex items-center justify-between mt-5">
-                <h2 class="text-3xl font-semibold title-font text-black">
+                <h2 className="text-3xl font-semibold title-font text-black">
                   Ux/ui design
                 </h2>
                 <div className="flex">
-                  <StarIcon class="h-7 text-yellow-400" />
+                  <StarIcon className="h-7 text-yellow-400" />
                   <span className="text-yellow-400 font-medium text-lg">
                     4.5
                   </span>
                 </div>
               </div>
-              <p class="text-md font-medium leading-relaxed mt-2">
+              <p className="text-md font-medium leading-relaxed mt-2">
                 Get the basic courses,gain knowledge and{" "}
-                <br class="hidden lg:inline-block" /> shine for your future
+                <br className="hidden lg:inline-block" /> shine for your future
                 career.
               </p>
 
@@ -92,28 +92,28 @@ export const Content = () => {
                 </button>
               </div>
             </div>
-            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-              <div class="rounded-lg h-64 overflow-hidden">
+            <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+              <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  class="object-cover object-center h-full w-full"
+                  className="object-cover object-center h-full w-full"
                   src="/img8.jpg"
                 />
               </div>
               <div className="flex items-center justify-between mt-5">
-                <h2 class="text-3xl font-semibold title-font text-black ">
+                <h2 className="text-3xl font-semibold title-font text-black ">
                   web App design
                 </h2>
                 <div className="flex">
-                  <StarIcon class="h-7 text-yellow-400" />
+                  <StarIcon className="h-7 text-yellow-400" />
                   <span className="text-yellow-400 font-medium text-lg">
                     4.5
                   </span>
                 </div>
               </div>
-              <p class="text-md font-medium leading-relaxed mt-2">
+              <p className="text-md font-medium leading-relaxed mt-2">
                 Get the basic courses,gain knowledge and{" "}
-                <br class="hidden lg:inline-block" /> shine for your future
+                <br className="hidden lg:inline-block" /> shine for your future
                 career.
               </p>
               <div className="flex items-center justify-between mt-5">

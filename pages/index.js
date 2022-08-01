@@ -10,9 +10,23 @@ import { Qutos } from "../components/Qutos";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
 import { useState } from "react";
+// import {
+//   ChasingDots,
+//   Circle,
+//   CubeGrid,
+//   DoubleBounce,
+//   FadingCircle,
+//   FoldingCube,
+//   Pulse,
+//   RotatingPlane,
+//   ThreeBounce,
+//   WanderingCubes,
+//   Wave
+// } from 'better-react-spinkit'
 
 export default function Home() {
   const [Toggle, setToggle] = useState(false);
+  
   return (
     <>
       <Head>
@@ -21,15 +35,15 @@ export default function Home() {
       </Head>
       <Navbar Toggle={Toggle} setToggle={setToggle} />
       <motion.div
-        whileInView={{ opacity: [0, 1],y:[150,0] }}
+        whileInView={{ opacity: [0, 1], y: [150, 0] }}
         transition={{
           duration: 0.9,
         }}
       >
-        <Hero  Toggle={Toggle}/>
+        <Hero Toggle={Toggle} />
       </motion.div>
       <motion.div
-        whileInView={{ opacity: [0, 1],y:[150,0] }}
+        whileInView={{ opacity: [0, 1], y: [150, 0] }}
         transition={{
           duration: 0.9,
         }}
@@ -37,7 +51,7 @@ export default function Home() {
         <Content />
       </motion.div>
       <motion.div
-        whileInView={{ opacity: [0, 1],y:[150,0] }}
+        whileInView={{ opacity: [0, 1], y: [150, 0] }}
         transition={{
           duration: 0.9,
         }}
@@ -45,7 +59,7 @@ export default function Home() {
         <Qutos />
       </motion.div>
       <motion.div
-        whileInView={{ opacity: [0, 1],y:[150,0] }}
+        whileInView={{ opacity: [0, 1], y: [150, 0] }}
         transition={{
           duration: 0.9,
         }}
@@ -53,7 +67,7 @@ export default function Home() {
         <Main />
       </motion.div>
       <motion.div
-        whileInView={{ opacity: [0, 1],y:[150,0] }}
+        whileInView={{ opacity: [0, 1], y: [150, 0] }}
         transition={{
           duration: 0.9,
         }}
