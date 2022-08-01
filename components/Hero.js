@@ -69,7 +69,7 @@ export const Hero = ({Toggle}) => {
                 knowledge.
               </h1>
               <p className="mb-8 text-2xl leading-relaxed">
-                Build new skills for that "this is my year" feeling with{" "}
+                Build new skills for that &quot;this is my year&quot; feeling with{" "}
                 <br className="hidden lg:inline-block" />
                 courses,certificates and degrees from world-class{" "}
                 <br className="hidden lg:inline-block" /> university and companies.
